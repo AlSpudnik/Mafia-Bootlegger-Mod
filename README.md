@@ -14,13 +14,13 @@ Gameplay :
 <img src="https://1.bp.blogspot.com/-ahi5zlywK0A/YP7ZqeMhTGI/AAAAAAAAFoM/UFR-Z5IaAh0CcdfGorvC5SaG9e4sF4aOgCLcBGAsYHQ/s400/bootlegger_city.jpg">
 
 		              3D modeling
-			      Mr. Spudnik
+			          Mr. Spudnik
 				  
-			       Scripting
-	                      Mr. Spudnik
+			          Scripting
+	                  Mr. Spudnik
 							
-		       Writer mission "Secret Box"
-			      Aquariumist79
+		        Writer mission "Secret Box"
+			       Aquariumist79
 						   
 	               Special thanks for the help
-			       Comics.guy
+			          Comics.guy
