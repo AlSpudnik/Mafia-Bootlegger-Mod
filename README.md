@@ -1,4 +1,4 @@
-## Bootlegger Mod v2.0
+## Bootlegger Mod
 
 Learn more:
 [![Bootlegger Mod](https://img.shields.io/badge/Bootlegger-Mod-yellow.svg )](https://spudnik3d.blogspot.com/p/blog-page_22.html)
