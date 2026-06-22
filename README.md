@@ -20,16 +20,11 @@ Installation:
 
 3. Installation the standard - unpack the archive .zip, any convenient manner, in the game directory folder.
 
-4. Modification created in two language versions. By default, the mod will 
-work with the Ukrainian interface language and subtitles. If you until 
-now do not know the Ukrainian language)), provided English version. 
+4. Modification created in two language versions. By default, the mod will work with the Ukrainian interface language and subtitles. To change to the English version, the folder "english_patch" is provided. 
 
-To change to English:
+To change to English language versions:
 
-- You should delete or rename the "tables" folder 
-(for example, "tables_ua").
-
-- Rename the "tables_en" folder to "tables".
+- Open the "english_patch" folder and copy (or move) all its contents to the main game directory. Agree to replace the files.
 
 Installation is complete, no longer make any unnecessary movements.
  
