@@ -1,0 +1,399 @@
+
+
+CarID          4dsCrashModel       6dsShadowModel                FullCarName                         Text
+-------------------------------------------------------------------------------------------------------------
+-              -                   -                             -   
+brouk          brouk_E.I3D         chryslerS.i3d                 VW Beetle Customized
+
+
+ 
+chevydel       chevDeluxCrash.I3D  fordorS.i3d                   Chevrolet Styleline Deluxe          5997 6D17
+GMCtruckC      GMCtruckD.I3D       truckBS.i3d                   GMC Truck Covered   
+GMCtruckF      GMCtruckFD.I3D      truckBS.i3d                   GMC Truck Flatbed 
+belair53       belair53D.I3D       fordorS.i3d                   Chevrolet Bel Air                   5986 6217
+poli(замінен)  belair53D.I3D       fordorS.i3d                   Chevrolet Bel Air Police            5986 6217
+ulver          ulverD.I3D          hudCoupS.I3D                  Culver Empire                       5998 6E17
+fclub          fclubD.I3D          fordorS.i3d                   Ford Custom Club Coupe              5999 6F17
+customfor      customforD.I3D      fordorS.i3d                   Ford Custom Fordor                  5996 6C17
+polimfor(замі) customforD.I3D      fordorS.i3d                   Ford Custom Police                  5996 6C17               
+ulver_pol      ulverD.I3D          hudCoupS.I3D                  Culver Empire Police Special        5998 6E17
+delivery       deliveryD.I3D       deliveryS.i3d                 Chevrolet Master Delivery           5995 6B17
+hotdeliv       deliveryD.I3D       deliveryS.i3d                 Chevrolet Master Delivery           
+f1pick         f1pickD.I3D         pickupS.i3d                   Ford F1                             5994 6A17
+runner         f1hotD.I3D          pickupS.i3d                   Road Runner
+3100p          3100pD.I3D          pickupS.i3d                   Chevrolet 3100                      5993 6917
+3100h          3100pD.I3D          pickupS.i3d                   Chevrolet 3100      
+chevCOE        chevCOED.I3D        truckBS.i3d                   Chevrolet COE truck covered
+mrbuzz         mrbuzzD.I3D         truckBS.i3d                   Mr. Buzz
+champ          champD.I3D          fordorS.i3d                   Studebaker Champion Starlight       5992 6817
+chief          chiefD.I3D          fordorS.i3d                   Pontiac Chieftain Fordor            5991 6717
+polcad(замін)  chiefD.I3D          fordorS.i3d                   Pontiac Chieftain Police            5991 6717
+safari         safariD.I3D         fordthd.i3d(new)              Pontiac Safari                      5990 6617
+healey         healeyD.I3D         chryslerS.i3d                 Austin-Healey 100                   5989 6517
+healeyBN2      healeyD.I3D         chryslerS.i3d                 Austin-Healey 100 BN2               5988 6417
+taxi(замінен)  checkerD.I3D        fordorS.i3d                   Checker A8 Cab                      5987 6317
+dino-buggy     dino-buggyD.I3d     fordTrunS.i3d                 Dino-Buggy
+____________________________________________________________________________________________________________________
+                                                                                                            відкриття у автопедії
+
+brouk          010000008000000201000000E8030000000000001E0000000100000002000000  freeride_enablecar A 78  03 00 00 00 02 00 00 00
+bigfoot        0100000000000402000000000A00000000000000000000000200000000800000  freeride_enablecar P 79
+xedos          0100000000000402000000000A00000000000000000000000200000002000000  freeride_enablecar A 80  03 00 00 00 02 00 00 00 
+toyota         0100000000000402000000000A00000000000000000000000200000002000000  freeride_enablecar A 81  03 00 00 00 02 00 00 00 
+traktor        0100000000000402000000000A00000000000000000000000200000080000000  freeride_enablecar H 82
+bull           0100000000000402000000000A00000000000000000000000200000000200000  freeride_enablecar N 83    
+9motorka       0100000000000402000000000A00000000000000000000000200000020000000  freeride_enablecar F 84
+bus            0100000000000402000000000A00000000000000000000000200000000020000  freeride_enablecar J 85
+
+delivery       100000000200000210000000A00F000000000000040000000200000000000002  garage_enablesteal E 86
+hotdeliv       0100000000000402000000000A00000000000000000000000200000004000000  freeride_enablecar C 87  03 00 00 00 04 00 00 00  
+chevCOE        800000000000040280000000AC0D000000000000100000000200000000000002  garage_enablesteal H 88
+chevydel       080000000100000208000000B80B000000000000040000000400000000000002  garage_enablesteal D 89
+3100p          040000000200000204000000A00F000000000000040000000200000000000002  garage_enablesteal C 90
+3100h          0100000000000402000000000A00000000000000000000000200000000001000  freeride_enablecar U 91  03 00 00 00 00 00 10 00
+mrbuzz         0100000000000402000000000A00000000000000000000000200000000002000  freeride_enablecar V 92  03 00 00 00 00 00 20 00
+GMCtruckC      020000000000040202000000AC0D000000000000100000000200000000000002  garage_enablesteal B 93
+GMCtruckF      020000000000040202000000AC0D000000000000100000000200000000000002  garage_enablesteal B 94
+belair53       0100000008000002010000007C150000000000000C0000000400000000000002  garage_enablesteal A 95
+poli           0100000008000002010000007C150000000000000C0000000400000000000002  garage_enablesteal A 96
+ulver          0100000008000002010000007C150000000000000C0000000400000000000002  garage_enablesteal A 97
+ulver_pol      010001000000040201000000B80B000000000000000000000400000000000002  garage_enablesteal A 98
+fclub          200000000100000220000000B80B000000000000040000000200000000000002  garage_enablesteal F 99
+customfor      200000000100000220000000B80B000000000000040000000400000000000002  garage_enablesteal F 100
+polimfor       200000000000040220000000A00F000000000000000000000400000000000002  garage_enablesteal F 101
+f1pick         400000000100000240000000B80B000000000000040000000200000000000002  garage_enablesteal G 102
+runner         0100000000000402000000000A00000000000000000000000200000000004000  freeride_enablecar W 103 03 00 00 00 00 00 40 00
+chief          00010000040000020001000094110000000000000C0000000400000000000002  garage_enablesteal I 104
+polcad         00010000040000020001000094110000000000000C0000000400000000000002  garage_enablesteal I 105
+safari         00020000040000020002000094110000000000000C0000000200000000000002  garage_enablesteal J 106
+healey         000400000100000200040000B80B000000000000040000000200000000000002  garage_enablesteal K 107
+healeyBN2      0100000000000402000000000A00000000000000000000000200000000008000  freeride_enablecar X 108 03 00 00 00 00 00 80 00 
+taxi           000800000100000200080000B80B000000000000040000000400000000000002  garage_enablesteal L 109
+champ          001000000000040200100000B80B000000000000080000000200000000000002  garage_enablesteal M 110
+dino-buggy     0100000000000402000000000A00000000000000000000000200000000000001  freeride_enablecar Y 111 03 00 00 00 00 00 00 01   
+
+тексти
+
+7020210  - Ну що, розiм'ятися не хочеш? (fem)
+8060080  - але якось все зірвалося.
+3020130  - У нас є одна справа,
+00950026 - Тепер не час базікати. У нас є робота.
+950165   - Йди, робота не чекатиме.
+3030230  - Дякую, Ральфі, поїхали! (каже Полі)
+4990091  - Дякую, Ральфі. (каже Том)
+9050250  - роботи буде чортова прiрва!
+22930023 - Вiдведiть цю автiвку у вказане мiсце.
+7040030  - Швидко в авто!
+8010220  - Давай-но сядемо в автiвку.
+12990071 - Лiзь у автiвку! Годi тут стирчати!
+950033   - Хто поведе авто? Повернись!
+950032   - Повернись! Якого Бiса?!
+15990491 - Пiджени машину поближче, тодi його не доведеться тягти далеко.
+15990591 - Боже мiй, ти не вмiєш водити машину!
+18010290 - Потрібно завантажити їх у машину,
+950204   - Мені потрібно ще дещо зробити.
+950236   - У мене немає часу, потрібно дещо зробити.
+1990431  - Що ти намагаєшся зробити? Може, досить?
+1990421  - Недоумок, якого біса, що ти робиш?!
+1990321  - Недоумок, якого дідька ти робиш?!
+1990391  - Ти часом не заблукав?
+9990598  - Я не можу цього зробити.
+4990321  - Мені потрібно повернутись і завершити справи. (каже Том)
+16220060 - Брудна робота не для мене.
+7970010  - Побалакати з чоловiком
+19990991 - Чудово. Хвоста не привів?
+12980001 - Ви не вберегли вантаж випивки
+09020090 - Схоже, можна було б залишитись вдома і поспати. (каже Том)
+00950207 - Прокляття! (каже Том)
+00950072 - Треба позбутись копів. (каже Полі)
+00950183 - Треба позбутись копів! (каже Сем)
+00950223 - Не добре, коли копи переслідують мій зад. (каже Том)
+00950218 - Дiдько! (каже Том)
+09020110 - Поїхали.
+13030250 - Поїхали!
+17990331 - Радий був допомогти.
+20010220 - Гаразд, гаразд, Том, я допоможу тобі. (Сем телефоном)
+20060270 - Ми тобі допоможемо ...
+20960004 - Завдання провалено
+01990541 - Швидше!
+11970001 - Відчинити сейф
+19990641 - Де ці кляті ключі? (Полі)
+15970003 - Встановити бомбу
+14960002 - Тікай!
+00002000 - Відченити дверцята
+00950216 - Мабуть, тут. (Том)
+18010550 - Якщо хтось сяде тобі на хвіст, ми з ним розберемося. (Полі)
+02010100 - Ці виродки запам'ятали номер моєї машини і використовували його, щоб вистежити мене. (Том)
+00950046 - Ми на місці.
+18010020 - Є тут фірма, імпортуюча
+13020210 - Якого біса тут відбувається!?
+14940001 - Ладно команидир вот бабки (Том, немає тексту) 
+13050320 - Просто той, у кого є влада, нав'язує всім свою волю. (Том) 
+05030070 - Я не з тих, хто жадає крові.
+05030080 - Не з тих, кому не вистачає насильства,
+05030130 - Ніяких шкодувань.
+00950105 - Гадаю, мені потрібно взяти автівку.
+05020080 - Подивимось, що можна зробити. Можеш байдикувати деякий час.
+05020090 - Хей, як там просуваються справи? (Том)
+05020100 - Щойно завершив.
+05020110 - Їдь.
+04960012 - Поговоріть з Ральфом.
+07970001 - Говорити з Ральфом.
+05990021 - К...конечно, Томми.
+05990171 - Це вона і є? (Том)
+05990191 - Це точно. (Том)
+07010220 - Привіт. (Том)
+08010090 - Лайно...
+08010420 - ...я повинен вбити жінку? (Том)
+09050010 - Це було щось! (Том)
+09050280 - Це дуже погано. (Том)
+10060340 - «Не роби іншому те, чого не хочеш, щоб зробили з тобою '' ... або як там кажуть ...           (Том) 
+00950219 - Oyy, з тобою все гаразд?          (Том)
+01990271 - Я роблю, що можу!           (Том)
+07990041 - Ні, я маю ще дещо зробити сьогодні.(Том)
+10970007 - Поговорити з чоловіком
+14970002 - Поговорити з чоловіком
+10990011 - Що у нас сьогодні, Ральфі?
+10990021 - Привіт, Т...Томмі, у мене нова машина. (Ральф)
+10990041 - Дякую, Ральфі.
+10990071 - Що у тебе є для мене?
+00950113 - Томмі!? Що ттти рррробишшшш? (Ральф)
+00950115 - Томмі! Охолонь, навіщо ти все ллламаєш?(Ральф)
+00950118 - ОЙ! Ббболяче! Щ-що ти робиш?! (Ральф)
+10990111 - хм (Том)
+10990991 - Отже, де авто? (Том)
+12030130 - Неймовірно! (Том)
+14010530 - Гаразд, я це зроблю.  (Том)
+15050004 - Отакої ... ну і ГАРЯЧА ж ця штучка!
+15990031 - Дякую (Том)
+17990161 - Є зброя?!
+18990801 - Тобі сюди не можна!
+18990811 - Тебе тут не повинно бути!
+19020010 - вау (Том)
+19990361 - Звичайно ... але мені необхідна зброя ...
+19990441 - Дідько! Зачинено. (Том)
+19990711 - Дідько! (Том)
+19991011 - Я так не вважаю, ні. (Том)
+20040220 - Дідько! (Том)
+20990061 - Гаразд, тоді тобі потрібна зброя, вірно кажу ?!
+
+
+
+
+
+00490008 - иду иду
+05020030 - привет меня зовут ТОм
+12010390 - спасибо (Том) 
+12990111 - ладно, вот і все (Том) 
+13030080 - обязательно (Том) 
+13030100 - думаете за нами следили  (Том)
+13030190 - очень похоже на правду (Том)
+13050640 - это правда(Том) 
+13050660 - он сам о себе позаботиться (Том) 
+13940142 - англ
+13940143 - англ
+13940144 - англ
+13990091 - я не могу (схоже на тома)
+13990201 - крик fem
+13990202 - крик fem
+14010390 - и что потом? (Том)
+14010470 - вы пытаетесь избавиться от меня (Том)
+14950074 - Де ти, мала? (Том)
+19990091 - Гаразд. (Том)
+19990151 - Чудово. (Том)
+
+
+
+14940046 - чего ты хочешь от меня (Том)
+14950044 - дорогое удовольствие (якийсь мужик)
+14950051 - чего вы хотите? у меня совсем нет времени
+14990301 - никогда не думал что миллионеры могут так нагадить (Том)
+18020530 - Гарна робота
+
+
+
+
+нові для Bootlegger
+99970001 - Постав по людськи машину!                     You need to properly park the car!
+99970002 - Потрібно купити тару у цього бариги           You need to buy bottles in this huckster
+99970003 - Розвантажуй ящики                             It is necessary to unload the boxes
+99970004 - Вантаж бухло                                  Upload booze
+99970005 - Відвези бухло по місцях доки тебе не знайшли копи.~Не пошкодь товар, це вплине на заробіток!
+           Deliver booze to a specified location, until cops found you.~Do not damage the product will affect earnings!
+99970006 - Доступна одна бутлегерська автівка               One bootlegger's car is available
+99970007 - Доступні дві бутлегерськi автівки                Two bootlegger's cars are available
+99970008 - Доступні три бутлегерськi автівки                Three bootlegger's cars are available
+99970009 - Доступні чотири бутлегерськi автівки             Four bootlegger's cars are available
+99970010 - Відвези ящики на ферму і поговори з дилером.    Deliver boxes to the farm and talk to the dealer.
+99970011 - Потрібна помпова рушниця                        
+
+99970012 - Шукай на мапі символи завдань. Купити зброю можна в крамниці Жовтого Піта.~Зберегти автівку можна в гаражі Сальєрі.~Відвідай бар Сальєрі для купівлі зброї або зміни часу доби.
+
+Search on the map symbols of missions. You can buy weapons at Yellow Pete's gunshop.~You can save your car in Salieri Garage.~Visit Salier's bar to buy weapons or change the time of day.
+ 
+99970013 - Thor 812 Cabriolet FWD $4900     garage_enablesteal R
+99970014 - Thor 810 Sedan FWD $4700         garage_enablesteal J
+99970015 - Masseur $4400                    freeride_enablecar F
+99970016 - Demoniac $3090                   freeride_enablecar H
+99970017 - Crazy Horse $2190                freeride_enablecar I
+99970018 - Bob Mylan 4WD $4670              freeride_enablecar J
+99970019 - Hillbilly 5.1 FWD $3790          freeride_enablecar O
+99970020 - Chevrolet Master Delivery $790   garage_enablesteal E
+99970021 - Ford Custom Fordor $3490         garage_enablesteal F
+99970022 - Chevrolet 3100 $2150             garage_enablesteal C
+99970023 - Schubert Extra Six Fordor $1490   //garage_enablesteal E
+99970024 - Chevrolet Styleline Deluxe $3190 garage_enablesteal D
+99970025 - Guardian Terraplane Coupe $1690   garage_enablesteal H
+99970026 - Celeste Marque 500 $3890          garage_enablesteal P
+99970027 - Crusader Chromium Fordor $2520    //garage_enablesteal G
+99970028 - Speedee 4WD $3890                freeride_enablecar L
+99970029 - Disorder 4WD $4990               freeride_enablecar K
+99970030 - Masseur Taxi $4570               freeride_enablecar G
+99970031 - Flamer $3380                     freeride_enablecar E
+99970032 - Black Dragon 4WD $3730           freeride_enablecar C
+99970033 - Luciferion FWD $4800             freeride_enablecar M
+99970034 - Studebaker Champion Starlight $5390 garage_enablesteal M
+99970035 - Pontiac Safari $3690             garage_enablesteal J
+99970036 - Ford Custom Club Coupe $3490     garage_enablesteal F
+99970037 - Pontiac Chieftain Fordor $5180   garage_enablesteal I
+99970038 - Ford F1 $2090                    garage_enablesteal G 
+99970039 - Manta Taxi FWD $2000             freeride_enablecar T
+99970040 - Silver Fletcher $5000            garage_enablesteal L
+99970041 - Lassiter V16 Appolyon $5000      garage_enablesteal T
+99970042 - Lassiter V16 Roadster $5000      //garage_enablesteal M
+99970043 - Trautenberg Model J $5000        garage_enablesteal U
+99970044 - Bruno Speedster 851 $4890        garage_enablesteal O
+99970045 - Caesar 8C Mostro $4190           freeride_enablecar S
+99970046 - Austin-Healey 100 $3890          garage_enablesteal K
+99970047 - Допоможи прибульцям. Не дай копам забрати секретну коробку. (Help the aliens. Do not let cops take secret box.)
+99970048 - Справу зроблено! Повертайся у місто. (It's done! Return to the city.)
+99970049 - Поклади цю коробку в Austin-Healey припаркований вгорі. (Put this box in the Austin-Healey that is parked at the top.)
+99970050 - Ти занадто слабкий для цього завдання. (Are you too weak for this mission.)
+99970051 - Для цього завдання тобі потрібен Томпсон зраз. 1928. (You needed to have Thompson 1928)
+99970052 - Ворушись, коробка має радіаційне випромінювання. (Get moving, the box has a radiation emission.)
+99970053 - Вбито волоцюгу(Killed homeless)
+99970054 - Вбито головного іншопланетянина (Killed main alien)
+99970055 - Швидка автівка! (Fast car!)
+99970056 - Потрібне інше авто, або навчись кермувати. (Need another car, or learn to driving.)
+99970057 - Цьому кориту місце на звалищі! (This jalopy should be at the dump)
+99970058 -            (Car stolen from Salieri's garage)
+99970059 - Поспішай! Сьогодні Дупер-Допінг за спецціною - $2299! (Hurry up! Today Duper-Doping at a special price - $2299!)
+99970060 - Час дії препарату Дупер-Допінг закінчується! (Duration of action of the Duper-Doping ends!)
+3433     - Ви знайшли Теслаган (Teslagun collected)
+3435     - Ви знайшли Дупер-Допінг (Duper-Doping collected)
+99970061 - Потрібний Дупер-Допінг (You need to have Duper-Doping)
+99970062 - Потрібна вибухівка (You need to have explosives)
+99970063 - Ми знайшли місцезнаходження штабу агентів СРСР. Ти знаєш що робити. (We found the location headquarters of the USSR agents. You know what to do.)
+99970064 - Знешкодь їх. (Neutralize them.)
+99970065 - Морське чудовисько на шляху до Лост Хевен, але у Ральфа є секретна зброя, яка зупинить монстра!~Не відставай! (A sea monster on the way to Lost Heaven, but Ralph has a secret weapon that will stop him!~Keep up!)
+99970066 - Потрібна двомісна автівка (Need a tudor car)
+99970067 - Бонус за неушкоджене авто! (Undamaged car bonus!)
+99970068 - Сідай в червоний Volkswagen. (Get in the red Volkswagen.)
+99970069 - Ральф подарував вам секретну зброю (Ralph gave you a secret weapon)
+99970070 - Ви здійняли передчасну паніку і вона втекла (You raised a premature panic and she ran away)
+99970071 - Хапай її! (Gеt her!)
+99970072 - Давай за нею! (Follow her!)
+99970073 - Зустріньтесь з детективом (Go to talk with detective)
+99970074 - Зустріньтесь з детективом на станції метро Dow-Town щоб отримати спец гаджет. (Go to talk with detective at the Dow-Town train station to get a special gadget)
+99970075 - Скористайся рентгенівськими окулярами щоб виявити шпигунку (Use x-ray specs to spot a spy)
+99970076 - Цього разу потрібно знешкодити російську шпигунку, відому як Маша Шльопкіна, вона ж повія Мішель, та ще невідомо хто. (This time you need to neutralize the russian spy, known as Masha Shlopkina, she is a slut Michelle, and it is also unknown who.)
+99970077 - Вона професійна вбивця та майстер маскування навчена в КДБ. (She is a professional killer and a master of disguise trained in the KGB.)
+99970078 - Переховується в отеле Корлеоне, там у неї є спільники і сьогодні планує вбивство політичного діяча. Але він повинен вижити! (She is hiding in the hotel Corleone, where she has allies and today is planning to murder a politician. But he must survive!)
+99970079 - Тримай новітній гаджет. Це тобі допоможе її знайти серед зграї хвойд. (Hold the novelty gadget. This will help you find her among a flock of prostitutes.)
+99970080 - Завдання секретне! Коли здіймеш стрілянину охорона і копи розцінять це як напад на отель, тому доведться з цим розбиратись тобі самому. Щасти! (The mission is secret! When you start firing, the guards and cops will see it as an attack on the hotel, so they will not be on your side. Good luck!)
+99970081 - Поганий сигнал (Bad signal)
+99970082 - Із завданням ти впорався! Тримай гроші.  (You coped with the task! Keep the money.)
+99970083 - Вбити всіх російських агентів. (Kill all russian agents.)
+99970084 - Вбито детектива. (Detective killed.)
+99970085 - Але відчуваю сморід, який ти привів сюди. Їхня підступність немає меж, сподіваюсь ти витратив не всі набої. (But I can smell the stench you brought here. Their insidiousness knows no bounds, I hope you have not spent all the bullets.)
+99970086 - I вдягни костюм! (And put on a suit!)
+99970087 - Роздобути вибухівку можна там, де колись засиджувався Вінченцо. (You can get explosives where Vincenzo used to stay.)
+99970088 - Луна-Кола трохи підправить твоє здоров'я. (Luna-Cola will slightly improve your health.)
+99970089 - Якщо тебе розшукують копи, вдома можеш змінити одяг. (If cops are looking for you, you can change your clothes at home.)
+99970090 - Для доступу до всіх бутлегерських авто накопичуй більшу суму грошей. (For access to all bootlegging cars, accumulate a large amount of money. )
+Для економії Дупер-Допінгу приймай його у найнебезпечніші моменти. (To conserve Duper-Doping, take it at dangerous times.) 
+Заощаджуй Дупер-Допінг! Ковтай  Не приймай Дупер-Допінг перед завантаженням іншої локації. (To economize Duper-Doping! Swallow it in the most dangerous moments. Do not use Duper-Doping before loading another location.)
+99970091 - В барі Сальєрі можна змінити час доби. (At Salieri Bar you can change the time of day.)
+99970092 - Щоб зарядити Теслаган дочекайся дощу і вирушай на маяк. Звісно, якщо ця зброя є у тебе в руках. (To charge Teslagan, wait for the rain and go to the lighthouse. Of course, if this weapon is in your hands.)
+99970093 - Вночі дощ буває частіше. (It rains more often at night.)
+99970094 - Щоб почати місію "Секретна коробка" потрібно прийняти певну дозу препарату Дупер-Допінг. (To begin the "Secret Box" mission, you need to take a certain dose of Duper-Doping.)
+99970095 - Випити Луна-Коли (Drink Luna-Cola)
+99970096 - Chevrolet Bel Air $3950 garage_enablesteal A
+99970097 - Потрібно знешкодити вибуховий пристрій, який встановлений у міському потязі!~В поліцейському авто є радар, з його допомогою знайди бомбу. (It is necessary to defuse an explosive device in a city train!~The police car has a radar, use it to find the bomb.)
+99970098 - Cідай в авто. Радар діє на відстані не більше 400 метрів.~Знайди бомбу!( Get in police car. The radar operates at a distance of not more than 400 meters.~Find the bomb!)
+99970099 - Таймер зупинено! Віднеси бомбу у відділок поліції. (Timer stopped! Take the bomb to the police station.)
+99970100 - Повертайся сюди вночі (Come back here at night)
+99970101 - Потрібно доставити на склад ящики з нелегальною випивкою. (Deliver boxes of illegal booze to the warehouse.)
+
+
+
+
+ціни
+from_russia_with_rage = $26000
+cathouse = $30000
+secret_box = $38000
+westcoast_monster = $17900
+train bomb = $8000
+
+
+
+порожній ящик = 2
+ящик горілки в селі = 100
+ящик горілки на продаж = 600
+
+старт = 410
+
+miss4 - купить = 400$
+miss4 - продати буде = 2400$
+miss3 - продати буде = 3600$
+miss2 - продати буде = 4800$
+
+13a_music - rescal you
+
+
+
+Primary sector
+
+позіц ігр
+x -9.8
+y 22.56
+z -595.38
+
+load_z_sale
+604,725159
+-7,03
+560,592407
+rot 138.000137
+
+
+vjezdtov1.sector_Rectangle01xx
+vjezdtov1.sector_podlh
+
+
+
+BOXES
+bednapor01 -2701.54 -4.9 -660.25
+bednapor02 -2703.30 -4.9 -660.16
+bednapor03 -2703.30 -4.9 -660.74
+bednapor04 -2702.66 -4.34 -660.18
+bednapor05 -2702.66 -4.34 -660.77
+bednapor06 -2701.60 -4.33 -660.88
+bednapor07 -2702.71 -4.89 -660.16
+bednapor08 -2702.70 -4.90 -660.80
+bednapor09 -2701.54 -4.89 -660.86
+bednapor10 -2700.98 -4.89 -660.70
+bednapor11 -2702.11 -4.89 -660.22
+bednapor12 -2702.10 -4.89 -660.81
+
+
+sector_VH
+sector_GUN
+sector_HATA
+sector_KIT
+sector_KOR
+sector_SR
+
+
+
+
+

@@ -1,0 +1,427 @@
+Список зброї
+
+0 - Empty hands 
+1 - Special Action - Спеціальна дія?
+2 - Knuckleduster - Кастет    
+3 - Knife - Ніж
+4 - Baseball Bat - Бейзбольна битка
+5 - Molotov cocktail - Коктейль для молотова
+6 - Colt Detective Special - Поліцейський кольт (6, 30)
+7 - S&W model 27 Magnum - Магнум (6, 30)
+8 - S&W model 10 M&P (6, 30)
+9 - Colt 1911 - Кольт (7, 35)
+10 - Thompson 1928 - Томпсон (50, 200)
+11 - Pump shotgun - Помпова рушниця (8, 32)
+12 - Saw off shotgun - Лупара (обрез) (2, 30)
+13 - US Rifle M1903 Springfield - Гвинтівка Спрінгфілда (5, 30)
+14 - Mosin-Nagant 1891/30 - Снайперська гвинтівка Мосіна (5, 30)
+15 - Grenade - Граната
+16 - Key - Ключ
+17 - Bucket - Відро
+18 - Flashlight - Ліхтарик
+19 - Documents - Документи
+20 - Bar - Труба
+21 - Papers - 
+22 - Bomb - Вибухівка
+23 - Door keys - Ключ від дверей
+24 - Safe key - Ключ від сейфа
+25 - Crowbar - Ломик
+26 - Plane ticket - Авіаквитки
+27 - Package - Пакет
+28 - Wooden plank - Дерев'яна палиця
+29 - Bottle - Пляшка
+30 - Small Key - Маленький ключ
+31 - Sword - Меч
+32 - Dog's Head - Собача голова
+33 - Thompson 1928 no sound - Беззвучний Томпсон (Teslagun (30, 100))
+34 - Pump shotgun no sound - Беззвучна помпова рушниця
+35 - Duper-Doping
+
+
+
+
+властивості персонажів до human_setproperty
+Energy - кількість хіт поінтів
+EnergyLegR - 100 за замовчуванням.
+EnergyLegL - 100 за замовчуванням.
+Intelligence  - сцикливість
+Driving
+EnergyHandL
+EnergyHandR 
+Reactions 
+Shooting 
+Mass
+Speed  - 100 за замовчуванням.
+Sight
+Aggresivity 
+Hearing
+Strenght
+
+персонажі
+0 - реагує на атаки, постріли. Качки тільки віддаляється, якщо символ був поранений кілька разів - Duck.
+1 - реагує на атаки, постріли. Тільки качки, йде, якщо символ був поранений кілька разів - ???
+2 - Не реагує ні на що. Насторожує гравця - жодної реакції.
+4 - Не реагує ні на що - немає реакції на зброю.
+8 - реагує на гравця тільки, напади гравця - реагують, коли вдарив.
+16 - реагує на гравця, йде - реакція на гравця.
+32 - реагує на атаки на інших персонажів. Або він йде або нападу зловмисник - React on Attack.
+64 - реагує на атаки на інших персонажів. Напади зловмисник - React on Attack 2.
+128 - використовується трохи для Джо в місії 9 Програмується реакцій, можна додати трохи різноманітності, які не є символами гангстерських - Afraid.
+
+Afraid: боюся
+React when hit: Пожежі Після того як гравець і вороги (вони Реакція на гравця), але не втручається.
+React on Attack: Пагони Після того як гравець і вороги (вони Реакція на гравця) і б'є його.
+Reation on Player: Завжди стріляти по ворогам і програвачем (вони Реакція на гравця) і б'є його.
+
+стани персонажів до enemy_lockstate та enemy_setstate
+ID назви
+0 UNLOCK
+1  NOW < pasivni > - кінець скрипту
+2  hostile_search - ворог йде до гравця
+3  hostile_hostile - ворог ворог)
+4  panic_runaway - бижить у паніці
+5  panic_freeze - закляк від страху
+6  fight_guard_nohostile - хіба це не ворог
+7  fight_guard_stand - стріляє не сходячи з місця
+8  fight_guard - Ворог, присівши навпочіпки
+9  fight_dogfight - Ворог, йде до гравця битись
+10 search - Це для гравця
+11 hostile - ворог
+12 runaway - працює від (тікає)
+13 freeze - застиглий
+14 sleep - спальні місця
+15 FRONT
+16 STANDUP
+17 TESTCOL
+18 RIGHT
+19 LEFT
+20 DISTANCE
+
+EFFECTS
+
+0 - blood
+1 - hit_stonewall
+2 - hit_ground
+3 - hit_metal
+4 - hit_wood
+5 - night_chimney_smoke
+6 - Fire
+7 - Explosion
+8 - molotov_explosion
+9 - fire_small
+10 - explosion_big
+11 - molotov_fire
+12 - Thompson_muzzle_flash_day
+13 - Thompson_muzzle_flash_night
+14 - pistol_muzzle_flash_day
+15 - pistol_muzzle_flash_night
+16 - shotgun_muzzle_flash_day
+17 - shotgun_muzzle_flash_night
+18 - fireworks
+19 - pena
+20 - explosion_car
+21 - fire_fading
+22 - fire_small_fading
+23 - pena_ve_vane
+24 - smoke_cigarette
+25 - smoke_cigarette_breath
+26 - chcani
+27 - bliti
+28 - smoke_parnik
+29 - hit_grass
+30 - voda_prehrada
+31 - voda_prehrada_dole
+32 - listi_ze_stromu
+33 - prach_motorest
+34 - kour_restaurace
+35 - dollars
+36 - fontanka1
+37 - zblunk
+38 - smoke_saliery
+39 - lighter
+40 - krev_vrtule
+41 - voda_vezeni 1
+42 - voda vezeni 2
+43 - hit_water
+44 - smoke_loco1
+45 - steam_loco
+46 - clun
+47 - steam2_loco
+48 - explosion_hotel
+49 - gasoline
+50 - smoke_coffee
+51 - Explosion_hotel1
+52 - Explosion Morello
+53 - Dust Morello
+54 - kola_na_vode
+55 - slow_smoke
+56 - spark_cig
+57 - Fire_no_smoke
+58 - smoke_cigarette_breath1
+59 - horici_benzin
+60 - FMVlighter
+61 - bloodSamFMV
+62 - FMV Loko-2sec
+63 - FMV Loko-1sec
+64 - FMV Loko-03
+65 - FMV Loko-low
+66 - FMV chladic
+67 - FMV Expl-cisterna
+68 - FMV lighter
+69 - FMV gasoline2
+70 - doutnik
+71 - kour_na_lokomotivu_NESAHAT
+72 - vol_dust
+73 - hovna
+74 - FMV cigarette
+75 - dust_fall
+76 - kaluz chuze
+77 - fire_cig
+78 - kour_lod_doprava
+79 - fireworks1
+80 - fireworks2
+81 - fireworks3
+82 - fireworks4
+83 - vlny
+84 - vlny_big
+85 - vlny_small
+86 - FMV sirka
+87 - hydrant
+88 - kytka listy
+89 - hadice
+90 - dymovnice
+91 - FMV pistol_muzzle_flash
+
+---------------------------------------------------
+Control List
+ 
+ACTION
+ACTION1
+CLUTCH
+CLUTCH1
+CROUCH
+CROUCH1
+DOWN
+DOWN1
+DRVUP
+DRVUP1
+DRVDOWN
+DRVDOWN1
+DRVLEFT
+DRVLEFT1
+DRVRIGHT
+DRVRIGHT1
+FIRE
+FIRE1
+GEARUP
+GEARUP1
+GEARDOWN
+GEARDOWN1
+HANDBRAKE
+HANDBRAKE1
+HOLSTER
+HORN
+HORN1
+INVENTORY
+JUMP
+JUMP1
+LEFT
+LEFT1
+MAP
+MOTORSWITCH
+OBJECTIVES
+RIGHT
+RIGHT1
+RUN
+RUN1
+RUNSWITCH
+RELOAD
+SNIPERMODE
+SPEEDLIMIT
+SPEEDLIMIT1
+UP
+UP1
+WEAPONDROP
+-------------------------------------------------------
+Список моделей машин
+
+1 Bolt Ace Tudor (Синий) fordtTud00.4ds 
+  Bolt Ace Tudor (Т.Синий) fordtTud01.4ds 
+  Bolt Ace Tudor (Коричневый) fordtTud02.4ds 
+  Bolt Ace Tudor (Зеленый) fordtTud03.4ds 
+  Bolt Ace Tudor (Красный) fordtTud04.4ds 
+2 Bolt Ace Touring(Синий) fordtto00.4ds
+  Bolt Ace Touring (Т.Синий) fordtto01.4ds
+  Bolt Ace Touring (Коричневый) fordtto02.4ds
+  Bolt Ace Touring (Зеленый) fordtto03.4ds
+  Bolt Ace Touring (Красный) fordtto04.4ds
+3 Bolt Ace runabout (Синий) fordtru00.4ds 
+  Bolt Ace runabout (Т.Синий) fordtru01.4ds 
+  Bolt Ace runabout (Коричневый) fordtru02.4ds 
+  Bolt Ace runabout (Зеленый) fordtru03.4ds 
+  Bolt Ace runabout (Красный) fordtru04.4ds 
+4 Bolt Ace pickup (Синий) fordtpi00.4ds 
+  Bolt Ace pickup (Т.Синий) fordtpi01.4ds 
+  Bolt Ace pickup (Коричневый) fordtpi02.4ds 
+  Bolt Ace pickup (Зеленый) fordtpi03.4ds 
+  Bolt Ace pickup (Красный) fordtpi04.4ds 
+5 Bolt Ace fordor (Синий) fordtFor00.4ds
+  Bolt Ace fordor (Т.Синий) fordtFor01.4ds
+  Bolt Ace fordor (Коричневый) fordtFor02.4ds
+  Bolt Ace fordor (Зеленый) fordtFor03.4ds
+  Bolt Ace fordor (Красный) fordtFor04.4ds
+6 Bolt Ace coupe (Синий) fordtco00.4ds 
+  Bolt Ace coupe (Т.Синий) fordtco01.4ds
+  Bolt Ace coupe (Коричневый) fordtco02.4ds
+  Bolt Ace coupe (Зеленый) fordtco03.4ds
+  Bolt Ace coupe (Красный) fordtco04.4ds
+7 Bolt model b tudor (Коричневый) foratu00.4ds
+  Bolt model b tudor (Красный) foratu01.4ds
+  Bolt model b tudor (Зеленый) foratu02.4ds
+  Bolt model b tudor (Т.Синий) foratu03.4ds
+8 Bolt model b roadster (Коричневый) ForAro00.4ds
+  Bolt model b roadster (Красный) ForAro01.4ds
+  Bolt model b roadster (Зеленый) ForAro02.4ds
+  Bolt model b roadster (Т.Синий) ForAro03.4ds
+9 Bolt model b Pickup (Коричневый) ForApic00.4ds
+  Bolt model b Pickup (Красный) ForApic01.4ds
+  Bolt model b Pickup (Зеленый) ForApic02.4ds
+  Bolt model b Pickup (Т.Синий) ForApic03.4ds
+10 Bolt model b Fordor (Коричневый) ForAfo00.4ds
+   Bolt model b Fordor (Красный) ForAfo01.4ds
+   Bolt model b Fordor (Зеленый) ForAfo02.4ds
+   Bolt model b Fordor (Т.Синий) ForAfo03.4ds
+11 Bolt model b Delivery (Коричневый) ForAde00.4ds
+   Bolt model b Delivery (Красный) ForAde01.4ds
+   Bolt model b Delivery (Зеленый) ForAde02.4ds
+   Bolt model b Delivery (Т.Синий) ForAde03.4ds
+12 Bolt model b coupe (Коричневый) ForAcou00.4ds
+   Bolt model b coupe (Красный) ForAcou014ds
+   Bolt model b coupe (Зеленый) ForAcou02.4ds
+   Bolt model b coupe (Т.Синий) ForAcou03.4ds
+13 Bolt model b Cabriolet (Коричневый) ForAca00.4ds
+   Bolt model b Cabriolet (Красный) ForAca01.4ds
+   Bolt model b Cabriolet (Зеленый) ForAca02.4ds
+   Bolt model b Cabriolet (Т.Синий) ForAca03.4ds
+14 Shubert six (Красный) chev00.4ds
+   Shubert six (Белый) chev01.4ds
+   Shubert six (Черный) chev02.4ds
+15 Bolt v8 Coupe (Зеленый) forVco00.4ds
+   Bolt v8 Coupe (Красный) forVco01.4ds
+   Bolt v8 Coupe (Синий) forVco02.4ds
+   Bolt v8 Coupe (Черный) forVco03.4ds
+16 Bolt v8 Fordor (Зеленый) forVfor00.4ds
+   Bolt v8 Fordor (Красный) forVfor01.4ds
+   Bolt v8 Fordor (Синий) forVfor02.4ds
+   Bolt v8 Fordor (Черный) forVfor03.4ds
+17 Bolt v8 Roadster (Зеленый) forVro00.4ds
+   Bolt v8 Roadster (Красный) forVro01.4ds
+   Bolt v8 Roadster (Синий) forVro02.4ds
+   Bolt v8 Roadster (Черный) forVro03.4ds
+18 Bolt v8 Touring (Зеленый) forVto00.4ds
+   Bolt v8 Touring (Красный) forVto01.4ds
+   Bolt v8 Touring ((Синий) forVto02.4ds
+   Bolt v8 Touring (Черный) forVto03.4ds
+19 Bolt v8 tudor (Зеленый) forVtud00.4ds
+   Bolt v8 tudor (Красный) forVtud01.4ds
+   Bolt v8 tudor (Синий) forVtud02.4ds
+   Bolt v8 tudor (Черный) forVtud03.4ds 
+20 Shubert extra six fordor (Зеленый) chemaFor00.4ds
+   Shubert extra six fordor (Белый) chemaFor01.4ds
+   Shubert extra six fordor (Синий) chemaFor02.4ds
+21 Shubert extra six tudor (Зеленый) chematud00.4ds 
+   Shubert extra six tudor (Белый) chematud01.4ds 
+   Shubert extra six tudor (Белый) chematud02.4ds 
+22 Falconer (Синий) blackha00.4ds 
+   Falconer (Фиолетовый) blackha01.4ds
+23 Falconer Yellowcar (Желтый) taxi00.4DS
+24 Crusader chromium fordor (Синий) pontFor00.4ds
+   Crusader chromium fordor (Фиолетовый) pontFor01.4ds
+25 Crusader chromium tudor (Зеленый) pontTud00.4ds
+   Crusader chromium tudor (Т.Синий) pontTud01.4ds
+26 Guardian terraplane coupe (Умбра) hudcou00.4ds
+   Guardian terraplane coupe (Бежевый) hudcou01.4ds
+   Guardian terraplane coupe (Черный) hudcou02.4ds
+27 Guardian terraplane fordor (Умбра) hudfor00.4ds
+   Guardian terraplane fordor (Бежевый) hudfor01.4ds
+   Guardian terraplane fordor (Черный) hudfor02.4ds 
+28 Guardian Terraplane Tudor (Умбра) hudtu00.4ds 
+   Guardian Terraplane Tudor (Бежевый) hudtu01.4ds
+   Guardian Terraplane Tudor (Черный) hudtu02.4ds
+29 thor 812 cabriolet Fwd (Оранж) cordca00.4ds
+   thor 812 cabriolet Fwd (Черный) cordca01.4ds
+30 thor 810 phaeton Fwd (Оранж) cordph00.4ds
+   thor 810 phaeton Fwd (Черный) cordph01.4ds
+31 thor 810 sedan Fwd (Оранж) cordse00.4ds
+   thor 810 sedan Fwd (Черный) cordse01.4ds
+32 Wright coupe (Синий) buiCou00.4ds
+   Wright coupe (Красный) buiCou01.4ds
+   Wright coupe (Зеленый) buiCou02.4ds
+33 Wright fordor (Синий) buikFor00.4ds
+   Wright fordor (Красный) buikFor01.4ds
+   Wright fordor (Зеленый) buikFor02.4ds
+34 Bruno Speedster (Серебро) speedster00.4ds 
+   Bruno Speedster (Красный) speedster01.4ds 
+   Bruno Speedster (Зеленый) speedster02.4ds 
+35 Celeste Marque 500 (Белый) merced500K00.4ds 
+   Celeste Marque 500 (Красный) merced500K01.4ds 
+36 Lassiter v16 fordor (Зеленый) Cad_ford00.4ds 
+37 Lassiter v16 phaeton (Желтый) Cad_phaeton00.4ds 
+38 Lassiter v16 Roadster (Зеленый) cad_road00.4ds 
+39 Silver Fletcher (Серебро) arrow00.4ds 
+40 Lissiter V16 Appolyon (Белый) hartmann00.4ds 
+41 Manta prototype (Черный) phantom00.4ds 
+42 trautenberg model j (Красный) deuseJco00.4ds 
+43 Carrozella c-otto Fwd (Синий) bugatti00.4ds 
+   Carrozella c-otto Fwd (Зеленый) bugatti01.4ds 
+44 Brubaker Fwd (Белый) miller00
+45 trautenberg racer Fwd (Красный) duesenberg00.4ds 
+46 Сaesar 8c Mostro (Красный) alfa8C00.4ds 
+   Сaesar 8c Mostro (Черный) alfa8C01.4ds 
+47 Bolt Ambulance (Белый) ambulance00.4ds 
+48 Bolt FireTruck (Красный) fire00.4ds 
+49 Bolt Hearse (Черный) hearseA00.4ds 
+50 Lassiter v16 Charon (Черный) hearseCa00.4ds 
+51 Ulver Air fordor (Зеленый) airflFor00.4ds 
+   Ulver Air fordor (Синий) airflFor01.4ds 
+52 Ulver Air tudor (Зеленый) airflTud00.4ds 
+   Ulver Air tudor (Синий) airflTud01.4ds 
+53 Lassiter v16 police (Черный) polCad00.4ds 
+54 Shubert six police (Белый) poli00.4ds 
+55 Shubert extra six police fordor (Белый) polimFor00.4ds 
+56 Shubert extra six police tudor (Белый) polimTud00.4ds 
+59 Сaesar 8c 2300 racing (Красный) alfa00.4ds 
+60 Bolt Thrower (Красный) thunderbird00.4ds 
+62 Hot Rod (Красный) FordHOT00.4ds 
+66 Black Dragon (Черный) Blackdragon00.4ds 
+67 Mutagen (Синий) cord_sedanH00.4ds 
+68 Flamer (Синий) Flamer00.4ds 
+69 Masseur (Синий) fordApick00.4ds 
+70 Masseur Taxi (Синий) fordApicktaxi00.4ds
+71 Demoniac (Черный) fordTH00.4ds 
+72 Crazy Horse (Черный) FThot00.4ds 
+73 Bob Mylan Fwd (Белый) hotrodp200.4ds 
+74 Disorder (Фиолетовый) hotrodp300.4ds 
+75 Speedee (Синий) hotrodp400.4ds 
+76 Luciferion (Красный) hotrodp500.4ds 
+77 Black Metal (Черный) chevroletm6H00.4ds 
+78 HiliBilly (Желтый) TBirdold00.4ds 
+79 Flower Power (Красный) fordAdelH00.4ds 
+80 Flame Spear (Белый) hotrodp600.4ds 
+81 Manta taxi (Черный) phantomtaxi00.4ds 
+57 Bolt Truck Flatbed (Открытый) 
+58 Bolt Truck Covered (Закрытый) TruckB00.4ds 
+   Bolt Truck Atlantic Export (Закрытый) TruckBxx00.4ds 
+   Bolt Truck Atlantic Export (Открытый) TruckBx00.4ds 
+61 Bolt Truck 
+63 Wright coupe Gangster's (Черный) buigang00.4ds
+64 Falconer Gangster's (Черный) 
+65 Bus Bus00.4ds 
+66 bigfoot bigfoot.4ds 
+67 Wv Beatle brouk00.4ds 
+68 Bulldozeur bull00.4ds 
+69 Toyota toyota00.4ds 
+70 Xeon xedos00.4ds 
+71 Быстро кончается бензин (EXTRIME) Lowgas00.4ds
+72 Трамвай salina.4ds
+
