@@ -11,7 +11,7 @@ Gameplay :
 
 <img src="https://github.com/AlSpudnik/Bootlegger-Mod-v2.0/blob/main/bootlogo.jpg" width="400" alt="">
 
-All new 3D models are created exclusively for the Bootlegger mod. Therefore, their use in other mods is prohibited! If you are interested in the author's 3D model, you can learn more about it at: [![3_Dmodels](https://img.shields.io/badge/3_Dmodels-blue.svg)](http://www.turbosquid.com/Search/Artists/MrSpudnik?referral=MrSpudnik)
+All 3D models are created exclusively for the Bootlegger mod. Therefore, their use in other mods is prohibited! If you are interested in the author's 3D model, you can learn more about it at: [![3_Dmodels](https://img.shields.io/badge/3_Dmodels-blue.svg)](http://www.turbosquid.com/Search/Artists/MrSpudnik?referral=MrSpudnik)
 
 Installation:
 1. Find the Releases section on the right side of the screen. Select the latest release, scroll through its description, and download the required .zip file.
