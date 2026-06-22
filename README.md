@@ -16,7 +16,7 @@ All 3D models are created exclusively for the Bootlegger mod. Therefore, their u
 Installation:
 1. Find the Releases section on the right side of the screen. Select the latest release, scroll through its description, and download the required .zip file.
 
-2. It's recommended to install the modification on a clean game. If the game's main directory already contains folders and files from other modifications, Bootlegger Mod may crash unexpectedly or function incorrectly. First, make a backup of the original (if still remaining) file game "rw_data.dll". If you want to save the game, making backup "savegame"  folder and remove it from the game directory. Do not unpack .dta archives archives orginal game!
+2. It's recommended to install the modification on a clean game. If the game's main directory already contains folders and files from other modifications, Bootlegger Mod may crash unexpectedly or function incorrectly. Make a backup of the original (if still remaining) file game "rw_data.dll". If you want to save the game, making backup "savegame"  folder and remove it from the game directory. Do not unpack .dta archives archives orginal game!
 
 3. Installation the standard - unpack the archive .zip, any convenient manner, in the game directory folder.
 
