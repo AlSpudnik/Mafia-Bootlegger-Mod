@@ -13,6 +13,15 @@ Gameplay :
 
 All new 3D models are created exclusively for the Bootlegger mod. Therefore, their use in other mods is prohibited! If you are interested in the author's 3D model, you can learn more about it at: [![3_Dmodels](https://img.shields.io/badge/3_Dmodels-blue.svg)](http://www.turbosquid.com/Search/Artists/MrSpudnik?referral=MrSpudnik)
 
+Installation:
+
+Modification should be installed on a clean game - in the game folder should be in only the files and archives (should not subfolders).
+
+First, make a backup of the original (if still remaining) file game "rw_data.dll". If you want to save the game, making backup "savegame"  folder and remove it from the game directory. Do not unpack .dta archives!
+
+
+
+
 <img src="https://1.bp.blogspot.com/-ahi5zlywK0A/YP7ZqeMhTGI/AAAAAAAAFoM/UFR-Z5IaAh0CcdfGorvC5SaG9e4sF4aOgCLcBGAsYHQ/s400/bootlegger_city.jpg">
 
 		              3D modeling
