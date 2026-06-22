@@ -20,7 +20,18 @@ Installation:
 
 3. Installation the standard - unpack the archive .zip, any convenient manner, in the game directory folder.
 
-4.
+4. Modification created in two language versions. By default, the mod will 
+work with the Ukrainian interface language and subtitles. If you until 
+now do not know the Ukrainian language)), provided English version. 
+
+To change to English:
+
+- You should delete or rename the "tables" folder 
+(for example, "tables_ua").
+
+- Rename the "tables_en" folder to "tables".
+
+Installation is complete, no longer make any unnecessary movements.
  
 How to play:
 
@@ -29,6 +40,8 @@ than 1.0. Starting with the higher version will work incorrectly game!
 To this there were no problems, provided the modification file to run 
 game - "Bootlegger.exe". Start the game with it, create a new profile and 
 enjoy the game!
+
+See all the details of the "Bootlegger Mod" on: [![Bootlegger Mod](https://img.shields.io/badge/Bootlegger-Mod-yellow.svg )](https://spudnik3d.blogspot.com/p/blog-page_22.html)
 
 <img src="https://1.bp.blogspot.com/-ahi5zlywK0A/YP7ZqeMhTGI/AAAAAAAAFoM/UFR-Z5IaAh0CcdfGorvC5SaG9e4sF4aOgCLcBGAsYHQ/s400/bootlegger_city.jpg">
 
