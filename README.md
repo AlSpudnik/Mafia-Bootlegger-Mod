@@ -9,7 +9,7 @@ Learn more:
 Gameplay :
 [![youtube](https://img.shields.io/badge/youtube-red.svg)](https://www.youtube.com/watch?v=g9JbeSGZAgQ)
 
-<img src="https://github.com/AlSpudnik/Bootlegger-Mod-v2.0/blob/main/bootlogo.jpg" width="400" alt="">
+<img src="https://github.com/AlSpudnik/Mafia-Bootlegger-Mod/blob/main/posters_images/bootlogo.jpg" width="400" alt="">
 
 All 3D models are created exclusively for the Bootlegger mod. Therefore, their use in other mods is prohibited! If you are interested in the author's 3D model, you can learn more about it at: [![3_Dmodels](https://img.shields.io/badge/3_Dmodels-blue.svg)](http://www.turbosquid.com/Search/Artists/MrSpudnik?referral=MrSpudnik)
 
@@ -35,7 +35,7 @@ To this there were no problems, provided the modification file to run game - "Bo
 
 See all the details of the "Bootlegger Mod" on: [![Bootlegger Mod](https://img.shields.io/badge/Bootlegger-Mod-yellow.svg )](https://spudnik3d.blogspot.com/p/blog-page_22.html)
 
-<img src="https://githubusercontent.com/AlSpudnik/Mafia-Bootlegger-Mod/blob/main/posters_images/Bootlegger_2026_v2.1.jpg" width="400" alt="">
+<img src="posters_images/Bootlegger_2026_v2.1.jpg" width="400" alt="coming soon">
 
 <img src="https://1.bp.blogspot.com/-ahi5zlywK0A/YP7ZqeMhTGI/AAAAAAAAFoM/UFR-Z5IaAh0CcdfGorvC5SaG9e4sF4aOgCLcBGAsYHQ/s400/bootlegger_city.jpg">
 
