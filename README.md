@@ -35,8 +35,7 @@ To this there were no problems, provided the modification file to run game - "Bo
 
 See all the details of the "Bootlegger Mod" on: [![Bootlegger Mod](https://img.shields.io/badge/Bootlegger-Mod-yellow.svg )](https://spudnik3d.blogspot.com/p/blog-page_22.html)
 
-<img src="https://github.com/AlSpudnik/Mafia-Bootlegger-Mod/poster_images/Bootlegger_2026_v2.1.jpg
-" width="400" alt="">
+<img src="poster_images/Bootlegger_2026_v2.1.jpg" width="400" alt="">
 
 <img src="https://1.bp.blogspot.com/-ahi5zlywK0A/YP7ZqeMhTGI/AAAAAAAAFoM/UFR-Z5IaAh0CcdfGorvC5SaG9e4sF4aOgCLcBGAsYHQ/s400/bootlegger_city.jpg">
 
